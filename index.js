@@ -12,7 +12,7 @@ Metalsmith(__dirname)
     url: 'https://handbuch-programmieren.de/',
   })
   .source('./src')
-  .destination('./build')
+  .destination('./docs')
   .clean(false)
   .use(markdown())
   .use(permalinks())
