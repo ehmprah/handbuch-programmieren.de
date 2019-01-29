@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{> head }}
+  </head>
+  <body>
+    {{> header }}
+    <main>
+      <div class="content">
+        <p>Diese Website befindet sich noch im Aufbau.</p>
+        <h3>Alle Inhalte</h3>
+        <ul class="recent">
+          {{#each articles }}
+          <li>
+            <div class="title">
+              <a href="{{ path }}">{{ title }}</a>
+            </div>
+          </li>
+          {{/each}}
+        </ul>
+      </div>
+      {{> sidebar }}
+    </main>
+  </body>
+</html>
