@@ -4,7 +4,8 @@ var layouts = require('metalsmith-layouts');
 var permalinks = require('metalsmith-permalinks');
 var collections = require('metalsmith-collections');
 var serve = require('metalsmith-serve');
-var watch = require('metalsmith-watch');
+var sass = require('metalsmith-sass');
+var browserSync = require('metalsmith-browser-sync');
 
 let monitor = () => {
   return (files, metalsmith, done) => {
@@ -32,12 +33,21 @@ Metalsmith(__dirname)
       },
     }),
   )
+  .use(
+    sass({
+      file: 'css/styles.css',
+      outputDir: 'css/',
+      outputStyle: 'expanded',
+      sourceMap: true,
+      sourceMapContents: true,
+    }),
+  )
   .clean(false)
   .use(markdown())
   .use(permalinks())
-
   .use(
     layouts({
+      directory: 'templates',
       engine: 'handlebars',
       partials: {
         head: 'partials/head',
@@ -54,11 +64,9 @@ Metalsmith(__dirname)
     }),
   )
   .use(
-    watch({
-      paths: {
-        '${source}/**/*': true,
-        'layouts/**/*': '**/*',
-      },
+    browserSync({
+      server: 'docs',
+      files: ['src/**/*.*'],
     }),
   )
   .build(function(err, files) {
