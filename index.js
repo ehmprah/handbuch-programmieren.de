@@ -66,7 +66,7 @@ Metalsmith(__dirname)
   .use(
     browserSync({
       server: 'docs',
-      files: ['src/**/*.*'],
+      files: ['src/**/*'],
     }),
   )
   .build(function(err, files) {

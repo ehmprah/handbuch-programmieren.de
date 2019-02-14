@@ -1,0 +1,10 @@
+.header {
+  &__name {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  &__description {
+    margin-top: 0.5em;
+  }
+}
