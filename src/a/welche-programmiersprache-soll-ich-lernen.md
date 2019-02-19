@@ -1,6 +1,6 @@
 ---
 title: Welche Programmiersprache soll ich lernen?
-layout: article.html
+layout: Article
 chapter: 1-2
 ---
 

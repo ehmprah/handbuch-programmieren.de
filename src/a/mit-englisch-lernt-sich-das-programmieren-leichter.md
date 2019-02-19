@@ -1,0 +1,13 @@
+---
+title: Mit Englisch lernt sich das Programmieren leichter
+layout: Article
+chapter: 1-1
+---
+
+Englisch zu können ist keine Voraussetzung für Programmierer: aber es hilft ganz ungemein! Die Programmierwelt tickt global, und die lingua franca der IT ist und bleibt an vorderster Front Englisch. Auch wenn die Syntax der meisten Programmiersprachen mit englischen Begriffen arbeitet, ist es zweifelsohne möglich, auch ohne Englishkenntnisse zu Programmieren. Auch das Lernen einer Programmiersprache sollte ohne Englisch kein allzu Problem darstellen; aber sagen wir es mal so: mit guten Englischkenntnissen wird es auf jeden Fall erheblich einfacher.
+
+Die Bandbreite an Ressourcen, mit denen Du deine Kenntnisse erweitern kannst, steigt mit guten Englischkenntnissen in's Unermessliche. Ein ganzer digitaler Ozean an Open-Source-Projekten wird mit einem soliden Englisch zu deinem Spielplatz und einer endlosen Bibliothek an gutem Code, an dem Du selbst lernen kannst, den Du verstehen und verwenden und vielleicht sogar irgendwann verbessern kannst! Auf Frage-Antwort-Communities wie stackoverflow bekommst du mit Englischkenntnissen in Sekundenschnelle Hifle für Programmier-Probleme; und je nachdem wie deine berufliche Zukunft aussieht, kann es durchaus nötig sein, dass du mit anderen Entwicklern auf Englisch kommunizieren musst.
+
+Kurzum: je besser du Englisch kannst, desto einfacher wirst du es in der Welt der Programmierung haben. Es geht alles ohne, aber es geht so viel einfacher mit. Um dein Englisch etwas aufzupolieren musst Du aber nicht unbedingt nur Dokumentationen oder technische Manuale lesen: das machst Du am Ende sowieso, wenn Du es musst.
+
+Ganz im Gegenteil versuche doch einfach mal ein englisches Buch zu lesen, deine Lieblingsserie auf Netflix mal auf Englisch mit Untertiteln zu gucken. Nimm einfach im Alltag jede Gelegenheit wahr, Englisch zu lesen, hören und sprechen, und dein Englisch wird sich ganz von alleine perfektionieren. Genau wie das Programmieren und alles Andere auch lernt man Englisch nur durch Benutzung: je mehr du es machst, desto besser wirst du darin.
