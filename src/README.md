@@ -1,6 +1,6 @@
 ---
-title: kaBOOM
+title: handbuch-programmieren.de
 layout: Article
 ---
 
-# Hello VuePress
+# Willkommen auf handbuch-programmieren.de!

@@ -1,9 +1,7 @@
 <template>
   <div class="header">
     <a class="header__name" href="/">handbuch-programmieren.de</a>
-    <div
-      class="header__description"
-    >Ein lebensnahes Handbuch für Programmierer und solche die es werden wollen.</div>
+    <div class="header__description">{{ $site.description }}</div>
   </div>
 </template>
 

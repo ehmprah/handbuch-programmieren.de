@@ -1,4 +1,5 @@
 ---
+type: glossary
 title: DevOps
 layout: Article
 ---

@@ -1,8 +1,11 @@
 ---
+type: article
 title: Mit Englisch lernt sich das Programmieren leichter
 layout: Article
 chapter: 1-1
 ---
+
+# Mit Englisch lernt sich das Programmieren leichter
 
 Englisch zu können ist keine Voraussetzung für Programmierer: aber es hilft ganz ungemein! Die Programmierwelt tickt global, und die lingua franca der IT ist und bleibt an vorderster Front Englisch. Auch wenn die Syntax der meisten Programmiersprachen mit englischen Begriffen arbeitet, ist es zweifelsohne möglich, auch ohne Englishkenntnisse zu Programmieren. Auch das Lernen einer Programmiersprache sollte ohne Englisch kein allzu Problem darstellen; aber sagen wir es mal so: mit guten Englischkenntnissen wird es auf jeden Fall erheblich einfacher.
 

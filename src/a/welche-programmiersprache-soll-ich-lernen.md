@@ -1,4 +1,5 @@
 ---
+type: article
 title: Welche Programmiersprache soll ich lernen?
 layout: Article
 chapter: 1-2
