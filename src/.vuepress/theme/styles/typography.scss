@@ -6,7 +6,7 @@ html {
 }
 
 a {
-  color: $color-primary;
+  color: $color-violet;
   text-decoration: none;
   &:hover {
     text-decoration: underline;
@@ -23,7 +23,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: 1.5em;
+  font-size: 1.25em;
   line-height: 1.5em;
   margin: 0 0 0.5em;
+}
+
+h1 {
+  font-size: 2em;
 }

@@ -67,6 +67,7 @@
 <script>
 export default {
   computed: {
+    // TODO either hide share comp on pages and front, or create article layout with it
     url: function() {
       return window.location.href;
     },

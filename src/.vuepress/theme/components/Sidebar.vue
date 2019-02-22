@@ -7,27 +7,24 @@
       </li>
     </ul>
 
-    <div class="sidebar__headline">Folgen Sie dem Autor</div>
+    <div class="sidebar__headline">Mehr vom Autor</div>
     <p>
-      Mario Kaiser bloggt unter
-      <a target="_blank" href="https://frgmnts.blog">frgmnts.blog</a>, ist auf
+      Ich blogge auf
+      <a target="_blank" href="https://frgmnts.blog">frgmnts.blog</a> und bin auf
       <a target="_blank" href="https://twitter.com/ehmprah">Twitter</a> und
       <a target="_blank" href="https://www.linkedin.com/in/ehmprah/">Linkedin</a>.
-    </p>
-
-    <p>
-      Der Quellcode für handbuch-programmieren.de ist auf
+      Den Quellcode für handbuch-programmieren.de gibt's auf
       <a
         href="https://github.com/ehmprah/handbuch-programmieren.de"
       >Github</a>.
     </p>
 
-    <div class="sidebar__headline">Sonstige Links</div>
+    <div class="sidebar__headline">Sonstiges</div>
     <p>
-      <a href="/glossar">Glossar</a>
+      <a href="/glossar/">Glossar</a>
     </p>
     <p>
-      <a href="/impressum">Impressum</a>
+      <a href="/impressum/">Impressum</a>
     </p>
   </div>
 </template>
