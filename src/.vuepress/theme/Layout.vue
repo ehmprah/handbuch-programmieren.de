@@ -5,8 +5,12 @@
     </header>
     <main class="page__main">
       <div class="page__content">
+        <Updated/>
+        <!-- TODO add title and updated in ARTICLE_HEAD COMPONENT -->
+        <!-- TODO add breadcrumb navigation (chapter, glossary) -->
         <Content/>
-        <!-- TODO share component -->
+        <!-- TODO add prev / next navigation -->
+        <Share/>
       </div>
       <aside class="page__sidebar">
         <Sidebar/>
@@ -18,7 +22,9 @@
 <script>
 import Header from './components/Header.vue';
 import Sidebar from './components/Sidebar.vue';
-// TODO different layouts in https://forestry.io/blog/an-introduction-to-theming-in-vuepress/
+import Share from './components/Share.vue';
+import Updated from './components/Updated.vue';
+
 export default {
   mounted() {
     console.log(this.$site);
@@ -27,6 +33,8 @@ export default {
   components: {
     Header,
     Sidebar,
+    Share,
+    Updated,
   },
 };
 </script>

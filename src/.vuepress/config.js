@@ -37,4 +37,7 @@ module.exports = {
   markdown: {
     anchor: { permalink: false },
   },
+  themeConfig: {
+    lastUpdated: true,
+  },
 };

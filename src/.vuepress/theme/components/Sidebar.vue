@@ -38,11 +38,6 @@ export default {
     console.log(this.$site);
     console.log(this.$page);
   },
-  data() {
-    return {
-      ur,
-    };
-  },
   computed: {
     pages: function() {
       const pages = [];
