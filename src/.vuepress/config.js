@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   title: 'handbuch-programmieren.de',
   description:
@@ -39,5 +41,8 @@ module.exports = {
   },
   themeConfig: {
     lastUpdated: true,
+  },
+  chainWebpack: (config, isServer) => {
+    config.resolve.alias.set('@theme', path.resolve(__dirname, './theme'));
   },
 };

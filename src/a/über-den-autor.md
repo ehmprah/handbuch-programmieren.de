@@ -2,10 +2,8 @@
 type: article
 title: Über den Autor
 chapter: 1. Einführung
-article: 1
+weight: -2
 ---
-
-# Über den Autor
 
 ## Wer?
 

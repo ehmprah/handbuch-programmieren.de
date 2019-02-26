@@ -76,6 +76,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import '~@theme/styles/variables';
+
 .share {
   margin-top: 2em;
   padding-top: 2em;
@@ -88,7 +90,7 @@ export default {
     text-transform: uppercase;
     font-size: 0.8em;
     border-radius: 2px;
-    box-shadow: 0 3px 6px -1px rgba(0, 0, 0, 0.5);
+    border-top: 1px solid $color-text-light;
     display: flex;
     align-items: center;
     padding: 0.25em 0.75em;

@@ -5,12 +5,11 @@
     </header>
     <main class="page__main">
       <div class="page__content">
-        <Updated/>
-        <!-- TODO add title and updated in ARTICLE_HEAD COMPONENT -->
+        <ArticleHeader v-if="type === 'article'"/>
         <!-- TODO add breadcrumb navigation (chapter, glossary) -->
         <Content/>
-        <!-- TODO add prev / next navigation -->
-        <Share/>
+        <Share v-if="type === 'article'"/>
+        <NextPage v-if="type === 'article'"/>
       </div>
       <aside class="page__sidebar">
         <Sidebar/>
@@ -20,30 +19,37 @@
 </template>
 
 <script>
-import Header from './components/Header.vue';
-import Sidebar from './components/Sidebar.vue';
-import Share from './components/Share.vue';
-import Updated from './components/Updated.vue';
+import Header from '@theme/components/Header.vue';
+import Sidebar from '@theme/components/Sidebar.vue';
+import Share from '@theme/components/Share.vue';
+import NextPage from '@theme/components/NextPage.vue';
+import ArticleHeader from '@theme/components/ArticleHeader.vue';
 
 export default {
   mounted() {
     console.log(this.$site);
     console.log(this.$page);
   },
+  data() {
+    return {
+      type: this.$page.frontmatter.type,
+    };
+  },
   components: {
     Header,
     Sidebar,
     Share,
-    Updated,
+    NextPage,
+    ArticleHeader,
   },
 };
 </script>
 
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans');
-@import './styles/normalize';
-@import './styles/variables';
-@import './styles/typography';
+@import '~@theme/styles/normalize';
+@import '~@theme/styles/variables';
+@import '~@theme/styles/typography';
 
 .page {
   background: $color-background;
@@ -66,7 +72,6 @@ export default {
     background: $color-content;
     flex: 1 1 auto;
     max-width: 600px;
-    text-align: justify;
   }
   &__sidebar {
     padding: 2em;

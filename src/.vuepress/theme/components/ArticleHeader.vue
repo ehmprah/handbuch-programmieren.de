@@ -1,5 +1,9 @@
 <template>
-  <div class="updated" v-if="showUpdated">Zuletzt aktualisiert am {{ lastUpdated }}</div>
+  <div class="article-header">
+    <div class="article-header__updated" v-if="showUpdated">aktualisiert am {{ lastUpdated }}</div>
+    <div>{{ $page.frontmatter.chapter }}</div>
+    <h1 class="article-header__title">{{ $page.frontmatter.title }}</h1>
+  </div>
 </template>
 
 <script>
@@ -22,9 +26,14 @@ export default {
 </script>
 
 <style lang="scss">
-.updated {
-  text-align: right;
-  margin-bottom: 1em;
+.article-header {
+  &__updated {
+    float: right;
+  }
+  &__title {
+    clear: both;
+    margin-top: 1em;
+  }
 }
 </style>
 

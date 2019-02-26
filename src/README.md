@@ -1,6 +1,6 @@
 ---
-title: handbuch-programmieren.de
-layout: Article
+type: page
+title: Willkommen
 ---
 
 # Willkommen auf handbuch-programmieren.de!
