@@ -5,6 +5,15 @@ module.exports = {
   description:
     'Ein praxisnahes Handbuch für Programmierer und alle die es werden wollen.',
   dest: 'docs',
+  markdown: {
+    anchor: { permalink: false },
+  },
+  themeConfig: {
+    lastUpdated: true,
+  },
+  chainWebpack: (config, isServer) => {
+    config.resolve.alias.set('@theme', path.resolve(__dirname, './theme'));
+  },
   head: [
     [
       'link',
@@ -35,14 +44,22 @@ module.exports = {
     ['link', { rel: 'manifest', href: '/site.webmanifest' }],
     ['meta', { name: 'msapplication-TileColor', content: '#c678dd' }],
     ['meta', { name: 'theme-color', content: '#c678dd' }],
+    [
+      'script',
+      {
+        async: '',
+        src: 'https://www.googletagmanager.com/gtag/js?id=UA-135302276-1',
+      },
+    ],
+    [
+      'script',
+      {},
+      `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-135302276-1', { 'anonymize_ip': true });
+    `,
+    ],
   ],
-  markdown: {
-    anchor: { permalink: false },
-  },
-  themeConfig: {
-    lastUpdated: true,
-  },
-  chainWebpack: (config, isServer) => {
-    config.resolve.alias.set('@theme', path.resolve(__dirname, './theme'));
-  },
 };
