@@ -4,13 +4,12 @@
       <Header/>
     </header>
     <main class="page__main">
-      <div class="page__content">
+      <section class="page__content">
         <ArticleHeader v-if="type === 'article'"/>
-        <!-- TODO add breadcrumb navigation (chapter, glossary) -->
         <Content/>
         <Share v-if="type === 'article'"/>
         <NextPage v-if="type === 'article'"/>
-      </div>
+      </section>
       <aside class="page__sidebar">
         <Sidebar/>
       </aside>
@@ -26,14 +25,17 @@ import NextPage from '@theme/components/NextPage.vue';
 import ArticleHeader from '@theme/components/ArticleHeader.vue';
 
 export default {
-  mounted() {
-    console.log(this.$site);
-    console.log(this.$page);
-  },
-  data() {
-    return {
-      type: this.$page.frontmatter.type,
-    };
+  // mounted() {
+  //   console.log(this.$site);
+  //   console.log(this.$page);
+  // },
+  computed: {
+    type: function() {
+      if (this.$page.frontmatter.type) {
+        return this.$page.frontmatter.type;
+      }
+      return '';
+    },
   },
   components: {
     Header,
@@ -53,31 +55,52 @@ export default {
 
 .page {
   background: $color-background;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  width: 100vw;
-  &__main {
-    display: flex;
-    flex-basis: 100%;
-  }
+
   &__header {
-    margin-left: 2em;
     padding: 1.5em 2em;
     color: $color-text-light;
   }
+
   &__content {
-    margin-left: 2em;
     padding: 2em;
     background: $color-content;
     flex: 1 1 auto;
     max-width: 600px;
   }
+
   &__sidebar {
     padding: 2em;
-    flex: 1 1 auto;
-    flex-basis: 200px;
     color: $color-text-light;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page {
+    background: $color-background;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+
+    &__header {
+      margin-left: 2em;
+    }
+
+    &__main {
+      display: flex;
+      flex-basis: 100%;
+    }
+
+    &__content {
+      margin-left: 2em;
+      flex: 1 1 auto;
+      max-width: 600px;
+    }
+
+    &__sidebar {
+      flex: 1 1 auto;
+      flex-basis: 200px;
+    }
   }
 }
 </style>

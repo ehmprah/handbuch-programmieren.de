@@ -1,19 +1,7 @@
 <template>
   <div class="sidebar">
     <div class="sidebar__headline">Inhaltsverzeichnis</div>
-
-    <div class="toc">
-      <!-- TODO turn chapters into ol as well! -->
-      <!-- TODO fix padding -->
-      <div class="toc__chapter" v-for="(pages, title) in chapters">
-        <div class="toc__chapter-title">{{ title }}</div>
-        <ol class="toc__list">
-          <li v-for="page in pages">
-            <a :href="page.path">{{ page.title }}</a>
-          </li>
-        </ol>
-      </div>
-    </div>
+    <TableOfContents/>
 
     <div class="sidebar__headline">Mehr vom Autor</div>
     <p>
@@ -35,19 +23,17 @@
 </template>
 
 <script>
-import chapters from './mixins/chapters';
+import TableOfContents from '@theme/components/TableOfContents';
 
 export default {
-  mixins: [chapters],
-  mounted() {
-    console.log(this.$site);
-    console.log(this.$page);
+  components: {
+    TableOfContents,
   },
 };
 </script>
 
 <style lang="scss">
-@import '../styles/variables';
+@import '~@theme/styles/variables';
 
 .sidebar {
   &__headline {

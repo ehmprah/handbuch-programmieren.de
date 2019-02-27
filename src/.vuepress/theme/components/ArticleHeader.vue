@@ -1,7 +1,7 @@
 <template>
   <div class="article-header">
-    <div class="article-header__updated" v-if="showUpdated">aktualisiert am {{ lastUpdated }}</div>
-    <div>{{ $page.frontmatter.chapter }}</div>
+    <div class="article-header__updated" v-if="showUpdated">Aktualisiert am {{ lastUpdated }}</div>
+    <div class="article-header__chapter">{{ $page.frontmatter.chapter }}</div>
     <h1 class="article-header__title">{{ $page.frontmatter.title }}</h1>
   </div>
 </template>
@@ -26,13 +26,34 @@ export default {
 </script>
 
 <style lang="scss">
+@import '~@theme/styles/variables';
+
 .article-header {
+  &__chapter,
   &__updated {
-    float: right;
+    color: $color-text-grey;
   }
+
   &__title {
-    clear: both;
-    margin-top: 1em;
+    margin-top: 0.5em;
+  }
+
+  &__chapter {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .article-header {
+    &__chapter {
+      display: block;
+    }
+    &__updated {
+      float: right;
+    }
+    &__title {
+      clear: both;
+    }
   }
 }
 </style>
