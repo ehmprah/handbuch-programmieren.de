@@ -80,7 +80,6 @@ export default {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    width: 100vw;
 
     &__header {
       margin-left: 2em;
