@@ -3,9 +3,10 @@ type: article
 title: 'Mit diesen Voraussetzungen lernst du programmieren'
 chapter: 1. Einführung
 weight: 1
+published: true
 meta:
   - name: description
-    content: Hier lernst du, welche Programmiersprache die richtige für dich ist und wie du deine ersten Schritte in der Programmierung machst.
+    content: Was brauchst du, um ein guter Programmierer zu werden? Diese Voraussetzungen helfen dir dabei!
 ---
 
 Programmieren lernen kann jeder – und selbst eine Karriere als Programmierer ohne Studium der Informatik ist absolut machbar. Es gibt ein paar Dinge, die vielleicht keine Voraussetzungen sind, aber das Programmieren lernen auf jeden Fall wesentlich leichter machen:

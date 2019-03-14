@@ -3,6 +3,7 @@ type: article
 title: Die Tugend der Selbstüberschätzung
 chapter: 4. Vom Anfänger zum Profi
 weight: 0
+published: true
 ---
 
 Ich für meinen Teil habe eine charakterliche Disposition zu hoffnungslosem Optimismus. Wenn es irgendwo ein Problem gibt, ist die Chance relativ groß, dass ich dazu sowas sage wie "kriegen wir hin, kein Problem". Aufgrund der Tatsache, dass ich als Mensch so bin, habe ich insbesondere zu Beginn meiner Programmierer-Karriere oft Aufgaben übernommen habe, von denen ich noch nicht wusste, ob oder wie ich sie zu bewältigen konnte. Frei nach dem Motto "Fake it 'til you make it" habe ich auf die Frage, ob ich dieses oder jenes Problem lösen kann, erst einmal laut ja geschriehen und dann im zweiten Schritt versucht herauszufinden ob ich das überhaupt kann.

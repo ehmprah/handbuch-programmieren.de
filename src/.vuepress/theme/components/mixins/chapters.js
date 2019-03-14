@@ -4,7 +4,7 @@ export default {
       const chapters = {};
       // Group all article pages by chapter
       this.$site.pages.forEach(page => {
-        if (page.frontmatter.type === 'article') {
+        if (page.frontmatter.type === 'article' && page.frontmatter.published) {
           if (chapters[page.frontmatter.chapter] === undefined) {
             chapters[page.frontmatter.chapter] = [];
           }

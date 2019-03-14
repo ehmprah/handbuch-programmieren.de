@@ -3,6 +3,7 @@ type: article
 title: Über dieses Handbuch
 chapter: 1. Einführung
 weight: -2
+published: true
 ---
 
 ## Über den Autor

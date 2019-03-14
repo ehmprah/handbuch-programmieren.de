@@ -3,7 +3,10 @@ type: article
 title: Der beste Editor zum Programmieren
 chapter: 3. Das Handwerkszeug
 weight: 0
+published: true
 ---
+
+<!-- TODO more content! -->
 
 Der Titel dieses Kapitels mag irreführend sein, deshalb die Antwort auf die Frage, die sich Dir vielleicht jetzt gerade stellt: Der beste Editor ist der, mit dem Du Dich am wohlsten fühlst. Egal ob simpler Text-Editor oder riesengroße IDE. Es gibt sie wie Sand am Meer, alle paar Monate kommt der neue heiße Scheiß um die Ecke gebogen und stellt wieder alles in den Schatten. Gefühlt ist das mit Code-Editoren wie mit Javascript-Frameworks: die kommen und gehen schneller in Mode als du sie lernen kannst.
 

@@ -1,8 +1,9 @@
 ---
 type: article
-title: 'Programmieren lernen: die besten Sprachen'
+title: 'Programmieren lernen: welche Sprache ist die richtige?'
 chapter: 1. Einführung
 weight: 1
+published: true
 meta:
   - name: description
     content: Hier lernst du, welche Programmiersprache die richtige für dich ist und wie du deine ersten Schritte in der Programmierung machst.

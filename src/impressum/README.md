@@ -5,10 +5,8 @@ title: Impressum
 
 # Impressum
 
-Mario Kaiser
-
-Graudenzer Str. 17
-
+Mario Kaiser<br>
+Graudenzer Str. 17<br>
 10243 Berlin
 
 ehmprah@gmail.com

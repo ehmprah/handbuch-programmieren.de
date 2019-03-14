@@ -3,6 +3,7 @@ type: article
 title: Arbeitsplatz-Fitness für Programmierer und Freelancer
 chapter: 5. Gesund bleiben
 weight: 0
+published: true
 ---
 
 Hat jetzt in der Tat mit Programmieren erstmal gar nicht so viel zu tun: aber wenn Du erfolgreich programmieren lernen willst, dann hast du zweifelsohne auch vor, viel Zeit vor dem Computer zu verbringen. Damit Dir das auch nach Jahren noch Spaß macht bzw. überhaupt noch möglich ist, kann man gar nicht früh genug damit anfangen, sich fit und gesund zu halten und so ohne Probleme bis zu 16 Stunden am Tag am Computer sitzen kann (das sollte man aus vielen Gründen nicht auf Dauer machen, aber ich weiß aus dem Selbstversuch, dass das mit der richtigen Büro-Ausstattung und den richtigen Fitness-Tricks überhaupt kein Problem darstellt).

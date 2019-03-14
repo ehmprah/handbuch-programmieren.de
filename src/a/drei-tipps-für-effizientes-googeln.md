@@ -3,6 +3,7 @@ type: article
 title: Drei Tipps für schlaues Googeln
 chapter: 2. Lernen lernen
 weight: 0
+published: true
 ---
 
 Es mag jetzt ein bisschen doof klingen, aber der mit Abstand wichtigste Skill für Leute, die sich selbst etwas beibringen wollen, ist die erfolgreiche Bedienung einer Suchmaschine. Du fragst Dich jetzt vielleicht, ob das nicht ein wichtiger Skill für jeden Menschen im dritten Jahrtausend ist – und das stimmt, zweifelsohne!

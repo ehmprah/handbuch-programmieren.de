@@ -3,6 +3,7 @@ type: article
 title: Warum du als Programmierer nicht studieren musst
 chapter: 1. Einführung
 weight: 0
+published: true
 ---
 
 Als ich zur Schule gegangen bin, wurden wir regelrecht bombardiert mit der ewigen Litanei um Lebenslauf und Zeugnisse. Jede Note zählt, jede auch nur tagelange Lücke im Lebenslauf würde am Ende Fragen aufwerfen und möglicherweise verhindern, dass wir einen ordentlichen Job bekommen.
