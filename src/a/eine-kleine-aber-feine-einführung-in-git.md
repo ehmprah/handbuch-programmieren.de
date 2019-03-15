@@ -1,12 +1,12 @@
 ---
 type: article
-title: 'Eine kleine, aber feine Einführung in Git'
+title: 'Einführung in Git: warum und wie du es benutzen solltest'
 chapter: 3. Das Handwerkszeug
 weight: 0
 published: false
 meta:
   - name: description
-    content: Hier lernst du wie du Git von Anfang an wie ein Profi benutzt.
+    content: Hier lernst du warum du es brauchst und wie du Git von Anfang an wie ein Profi benutzt.
 ---
 
 ## Warum brauch ich Versionierung?
@@ -21,7 +21,16 @@ In Kombination mit einem Provider wie GitHub werden mit Versionierung sogar Back
 
 Darüber hinaus macht Versionierung das Zusammenarbeiten mehrerer Programmierer an einer Codebase überhaupt erst sinnvoll möglich, insofern musst Du dich spätestens dann damit auseinandersetzen, wenn du nicht auf ewig in deinem Elfenbeinturm vor dich hincoden willst.
 
-Mit Git können mehrere Programmier sogar an der selben Datei arbeiten, ohne dass sich die Änderungen gegenseitig überschreiben; Git kümmert sich ganz automatisch um das Zusammensetzuen aller Änderungen und meckert wirklich nur dann, wenn es einen Konflikt zwischen zwei Änderungen gibt, weil diese zum Beispiel die selbe Codezeile geändert haben.
+Mit Git können mehrere Programmier sogar an der selben Datei arbeiten, ohne dass sich die Änderungen gegenseitig überschreiben; Git kümmert sich ganz automatisch um das Zusammensetzuen aller Änderungen und meckert wirklich nur dann, wenn es einen Konflikt zwischen zwei Änderungen gibt, weil zum Beispiel zwei Leute die selbe Codezeile geändert haben.
+
+## Und so funktioniert's!
+
+Das Ganze funktioniert nach dem folgenden Prinzip: dein Code liegt in einem "Repository", was zunächst mal nichts anderes ist als eine Kopie eines Ordners, in dem alle Dateien von Git überwacht werden. Wenn du Änderungen gemacht hast, kannst du diese in einem "Commit" zusammenfassen und mit einer Beschreibung der Änderungen in dein Repository übertragen. Dabei arbeitest du immer in einem bestimmten "Branch".
+
+Dein Repository hat mehrere Branches (zum Beispiel einen develop-Branch, an dem gearb)
+
+viele kleine commits
+kurze klare commit messages
 
 ## Git
 

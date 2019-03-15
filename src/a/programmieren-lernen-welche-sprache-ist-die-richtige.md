@@ -53,3 +53,5 @@ Aber keine Sorge, du musst hier auch nicht sofort im Detail einsteigen; ich werd
 - <a href="https://tutorials.visualstudio.com/cpp-calculator/intro" target="_blank">Taschenrechner mit C++ (EN)</a>
 - <a href="https://crunchify.com/how-to-create-simple-calculator-android-app-using-android-studio/" target="_blank">Taschenrechner mit Java für Android (EN)</a>
 - <a href="https://www.instructables.com/id/How-to-Make-a-Calculator-in-Xcode-Using-Swift/" target="_blank">Taschenrechner mit Swift für iOS (EN)</a>
+
+<img src="https://vg09.met.vgwort.de/na/0c1742410b914921a08d2abb5b953d31" width="1" height="1" alt="">

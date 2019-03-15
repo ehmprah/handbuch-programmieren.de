@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import '~@theme/styles/normalize';
+@import '~@theme/styles/variables';
+@import '~@theme/styles/typography';
+
+.page {
+  background: $color-background;
+
+  &__header {
+    padding: 1.5em 2em;
+    color: $color-text-light;
+  }
+
+  &__content {
+    padding: 2em;
+    background: $color-content;
+    flex: 1 1 auto;
+    max-width: 600px;
+  }
+
+  &__sidebar {
+    padding: 2em;
+    color: $color-text-light;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page {
+    background: $color-background;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    &__header {
+      margin-left: 2em;
+    }
+
+    &__main {
+      display: flex;
+      flex-basis: 100%;
+    }
+
+    &__content {
+      margin-left: 2em;
+      flex: 1 1 auto;
+      max-width: 600px;
+    }
+
+    &__sidebar {
+      flex: 1 1 auto;
+      flex-basis: 200px;
+    }
+  }
+}

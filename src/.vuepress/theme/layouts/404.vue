@@ -1,28 +1,30 @@
 <template>
-  <div class="theme-container">
-    <div class="content">
-      <h1>404</h1>
-      <blockquote>{{ getMsg() }}</blockquote>
-      <router-link to="/">Take me home.</router-link>
-    </div>
+  <div class="page">
+    <header class="page__header">
+      <Header/>
+    </header>
+    <main class="page__main">
+      <section class="page__content">
+        <h1>404</h1>
+        <p>Satz mit X, das war wohl nix!</p>
+      </section>
+      <aside class="page__sidebar">
+        <Sidebar/>
+      </aside>
+    </main>
   </div>
 </template>
 
 <script>
-const msgs = [
-  `There's nothing here.`,
-  `How did we get here?`,
-  `That's a Four-Oh-Four.`,
-  `Looks like we've got some broken links.`
-]
+import Header from '@theme/components/Header.vue';
+import Sidebar from '@theme/components/Sidebar.vue';
 
 export default {
-  methods: {
-    getMsg () {
-      return msgs[Math.floor(Math.random() * msgs.length)]
-    }
-  }
-}
+  components: {
+    Header,
+    Sidebar,
+  },
+};
 </script>
 
-<style src="../styles/theme.styl" lang="stylus"></style>
+<style src="../styles/page.scss" lang="scss"></style>

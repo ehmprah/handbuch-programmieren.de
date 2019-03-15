@@ -18,8 +18,9 @@
   },
   "homepage": "https://github.com/ehmprah/handbuch-programmieren.de#readme",
   "devDependencies": {
+    "@vuepress/plugin-pwa": "^1.0.0-alpha.44",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
-    "vuepress": "^0.14.9"
+    "vuepress": "^1.0.0-alpha.44"
   }
 }

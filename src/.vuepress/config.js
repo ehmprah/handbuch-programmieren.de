@@ -42,8 +42,8 @@ module.exports = {
       },
     ],
     ['link', { rel: 'manifest', href: '/site.webmanifest' }],
-    ['meta', { name: 'msapplication-TileColor', content: '#c678dd' }],
-    ['meta', { name: 'theme-color', content: '#c678dd' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#282c34' }],
+    ['meta', { name: 'theme-color', content: '#282c34' }],
     [
       'script',
       {
