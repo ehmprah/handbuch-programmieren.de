@@ -3,7 +3,7 @@ type: article
 title: 'Einführung in Git: warum und wie du es benutzen solltest'
 chapter: 3. Das Handwerkszeug
 weight: 0
-published: false
+published: true
 meta:
   - name: description
     content: Hier lernst du warum du es brauchst und wie du Git von Anfang an wie ein Profi benutzt.
@@ -25,19 +25,37 @@ Mit Git können mehrere Programmierer sogar an der selben Datei arbeiten, ohne d
 
 ## Und so funktioniert's!
 
-Das Ganze funktioniert nach dem folgenden Prinzip: dein Code liegt in einem "Repository", was zunächst mal nichts anderes ist als eine Kopie eines Ordners, in dem alle Dateien von Git überwacht werden. Wenn du Änderungen gemacht hast, kannst du diese in einem "Commit" zusammenfassen und mit einer Beschreibung der Änderungen in dein Repository übertragen. Dabei arbeitest du immer in einem bestimmten "Branch".
+Das Ganze funktioniert nach dem folgenden Prinzip: dein Code liegt in einem "Repository", was zunächst mal nichts anderes ist als eine ein Ordner, in dem alle Dateien von Git überwacht werden. Neben deinem lokalen Ordner gibt es ein "Remote" bzw. "Origin", in dem nicht nur der aktuelle Stand, sondern die gesamte Historie deines Code gespeichert ist.
 
-Dein Repository hat mehrere Branches, zum Beispiel einen develop-Branch, an dem entwickelt wird und einen master-Branch, der die aktuelle Live-Version deines Projekts widerspiegelt. Wenn du nun ein neues Feature entwickelst, erstellst du vom develop-Branch aus einen neuen Feature-Branch, in dem du die Änderung einbauen, testen und finalisieren kannst, bevor sie mit einem "Merge" in den develop-Branch eingefügt wird. Wenn du mehrere Features nach diesem Prinzip fertig gebaut und in deinen develop-Branch gemerged hast, möchtest du vielleicht
+Neben Wenn du Änderungen gemacht hast, kannst du diese in einem "Commit" zusammenfassen und mit einer Beschreibung der Änderungen als Punkt in der Geschichte des Code festhalten. Dabei arbeitest du immer in einem bestimmten "Branch".
+
+Dein Repository hat mehrere Branches, zum Beispiel einen develop-Branch, an dem entwickelt wird und einen master-Branch, der die aktuelle Live-Version deines Projekts widerspiegelt.
+
+Wenn du nun ein neues Feature entwickelst, erstellst du vom develop-Branch aus einen neuen Feature-Branch, in dem du die Änderung einbauen, testen und finalisieren kannst, bevor sie mit einem "Merge" in den develop-Branch eingefügt wird.
+
+Wenn du mehrere Features nach diesem Prinzip fertig gebaut und in deinen develop-Branch gemerged hast, möchtest du vielleicht einen Release machen und eine neue Version deines Projekts veröffentlichen: dazu integrierst du alle Commits aus dem develop-Branch in den Master-Branch, auch das wieder mit einem einfachen "Merge"-Kommando.
+
+Dieser Workflow bringt zahlreiche Vorteile: du kannst an einem neuen Feature arbeiten, ohne damit die Live-Version deines Produkts zu beeinträchtigen. Du kannst jederzeit Experimente machen und ein Feature auch wieder wegwerfen, ohne irgendwelchen Code aufräumen zu müssen. Du kannst einen Hotfix an der Live-Version machen, ohne alle Änderungen miteinzubauen, die vielleicht schon fertig entwickelt sind, aber trotzdem noch nicht in der Live-Version landen sollen.
+
+Auch wenn du an dieser Stelle noch nicht wirklich den Sinn hinter diesem System sehen solltest: ich empfehle dir, diesen Workflow einfach genau so zu übernehmen; mit der Zeit wirst du verstehen, warum all diese Kleinigkeiten so viel Sinn machen.
 
 ## Die wichtigsten Kommandos
 
 Auch wenn du Git heutzutage in modernen Editoren integriert hast und über eine grafische Oberfläche bedienen kannst, macht es Sinn, die wichtigsten Kommandos zu kennen:
 
+- `git pull`: bringt dein lokales Repository auf den neuesten Stand (holt neue Commits auf deinen Rechner, die zum Beispiel andere in der Zwischenzeit in diesem Branch gemacht haben)
+- `git push`: lädt alle Commits
+- `git checkout dev`: wechselt den aktiven Branch zu "dev"
+- `git checkout -b feature/name`: erstellt einen Branch mit dem Namen "feature/name" (auf)
 - `git add .`: alle modifizierten Dateien werden gestaged (für den nächsten Commit "ausgewählt")
 - `git commit -m "Commit-Message"`: erstellt einen Commit mit der Beschreibung "Commit-Message" (siehe dazu [](#))
+- `git status`: zeigt dir Infos zum aktuellen
+- `git merge dev`: übernimmt alle Commits aus dem dev branch in deinen aktuell aktiven Branch
 
 viele kleine commits
 kurze klare commit messages
+
+## Merge vs Rebase
 
 ## Wie sieht eine gute Commit-Message aus?
 
@@ -53,7 +71,9 @@ Use the body to explain what and why vs. how
 
 https://chris.beams.io/posts/git-commit/
 
-## Git
+## Links
+
+- [Offizielle Dokumentation](https://git-scm.com/doc)
 
 - wie wird es im alltag benutzt
 - dev / stage / master, feature branches, merges, hintergrund
