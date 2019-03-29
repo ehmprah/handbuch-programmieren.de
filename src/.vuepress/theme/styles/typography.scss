@@ -1,7 +1,7 @@
 html {
   font-family: 'Fira Sans', sans-serif;
   font-size: $font-size;
-  line-height: 1.5em;
+  line-height: 1.75em;
   color: $color-text-dark;
 }
 
@@ -30,4 +30,20 @@ h6 {
 
 h1 {
   font-size: 2em;
+}
+
+code {
+  background: $color-background;
+  padding: 4px 6px;
+  color: $color-red;
+  border-radius: 3px;
+}
+
+ul {
+  list-style-type: square;
+  padding: 0 0 0 1.5em;
+  margin: 0;
+  li {
+    margin: 0.5em 0;
+  }
 }
