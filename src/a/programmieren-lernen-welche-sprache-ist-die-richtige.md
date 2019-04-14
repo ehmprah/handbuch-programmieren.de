@@ -28,8 +28,10 @@ In jedem Fall kannst Du nichts falsch machen: egal welche Sprache du lernst, Du 
 Natürlich kann es sinnvoll sein, sich gleich in die richtige Richtung zu bewegen, deswegen an dieser Stelle mal eine kleine Übersicht, für welche Bereiche welche Programmiersprachen Sinn machen:
 
 - Web-Entwicklung: JavaScript oder Python (mit HTML und CSS)
-- Desktop-Anwendungen: C++
+- Desktop-Anwendungen: C++, Java
 - Mobile Apps: Java für Android, Swift für iOS oder C++ für alle Plattformen
+- Data Science: Python
+- Internet of Things: Python, C++, JavaScript
 
 ## Meine Empfehlung: JavaScript als gefragter Allrounder
 
