@@ -1,5 +1,5 @@
 <template>
-  <div class="next-page">
+  <div class="next-page" v-if="nextPage">
     <div class="next-page__label">Nächstes Kapitel:</div>
     <a :href="nextPage.path">{{ nextPage.title }}</a>
   </div>
@@ -23,7 +23,7 @@ export default {
           }
         }
       }
-      return {};
+      return false;
     },
   },
 };

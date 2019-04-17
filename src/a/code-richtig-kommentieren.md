@@ -14,7 +14,7 @@ Natürlich findest du dich notfalls auch wieder in schlecht oder gar nicht komme
 
 ## Der beste Kommentar ist der, den du nicht schreiben musst
 
-Man kann es mit dem Kommentieren definitiv auch übertreiben. Keiner will über ein paar Codezeilen ganze Romane lesen, sonst ist es einfacher, direkt den Code zu lesen und zu verstehen. Ganz generell solltest du versuchen, Code so zu schreiben, dass er selbst kommentiert, was er macht. Ein Funktionsname sollte beschreiben, was die Funktion macht. Damit kann man einen Funktionsaufruf im Code verstehen, ohne zuerst nachschauen zu müssen, was diese Funktion überhaupt macht. Dementsprechend sollte eine Variable nach ihrem Inhalt benannt werden, um nicht ständig nachgucken zu müssen, sie enthält. Kommentare sollten nicht wiederholen oder umschreiben, was ohnehin im Code darunter steht, sondern die Absicht dahinter erklären, den Code gliedern, Zusammenhänge aufzeigen.
+Man kann es mit dem Kommentieren definitiv auch übertreiben. Keiner will über ein paar Codezeilen ganze Romane lesen, sonst ist es einfacher, direkt den Code zu lesen und zu verstehen. Ganz generell solltest du versuchen, Code so zu schreiben, dass er selbst kommentiert, was er macht. Ein Funktionsname sollte beschreiben, was die Funktion macht. Damit kann man einen Funktionsaufruf im Code verstehen, ohne zuerst nachschauen zu müssen, was diese Funktion überhaupt macht. Dementsprechend sollte eine Variable nach ihrem Inhalt benannt werden, um nicht ständig nachgucken zu müssen, sie enthält. Kommentare sollten nicht wiederholen oder umschreiben, was ohnehin im Code darunter steht:
 
 ```js
 // The first variable is a loaded user
@@ -29,4 +29,8 @@ const user = loadUser(userId);
 
 ## Kommentiere so wenig wie möglich, aber so viel wie nötig
 
+Kommentare sollten die Absicht hinter dem Code erklären, ihn Code gliedern und Zusammenhänge aufzeigen.
+
 Ziel: du oder andere sollten deinen Code einfach verstehen.
+
++++ TODO add metis +++

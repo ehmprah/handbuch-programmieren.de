@@ -81,7 +81,7 @@ export default {
 .share {
   margin-top: 2em;
   padding-top: 2em;
-  box-shadow: 0 -0.3px;
+  border-top: 1px solid #ccc;
   display: flex;
   flex-direction: column;
   a {
@@ -90,14 +90,12 @@ export default {
     text-transform: uppercase;
     font-size: 0.8em;
     border-radius: 2px;
-    border-top: 1px solid $color-text-light;
     display: flex;
     align-items: center;
     padding: 0.25em 0.75em;
     margin: 0.25em 0;
     &:hover {
       text-decoration: none;
-      border: none;
       color: #fff;
     }
     svg {
