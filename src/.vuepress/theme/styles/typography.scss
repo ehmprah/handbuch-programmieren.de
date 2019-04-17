@@ -15,6 +15,12 @@ a {
 
 p {
   margin: 0 0 1em;
+  code {
+    color: $color-red;
+    background: $color-background;
+    padding: 1px 4px;
+    border-radius: 2px;
+  }
 }
 
 h1,
@@ -30,13 +36,6 @@ h6 {
 
 h1 {
   font-size: 2em;
-}
-
-code {
-  background: $color-background;
-  padding: 4px 6px;
-  color: $color-red;
-  border-radius: 3px;
 }
 
 ul {
