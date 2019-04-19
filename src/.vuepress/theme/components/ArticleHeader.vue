@@ -34,10 +34,6 @@ export default {
     color: $color-text-grey;
   }
 
-  &__title {
-    margin-top: 0.5em;
-  }
-
   &__chapter {
     display: none;
   }
