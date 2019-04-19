@@ -21,71 +21,79 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "b1027c5048a96d9ed1a612740d9e6e98"
+    "revision": "17120be70c892857ddc43fe4da755722"
   },
   {
     "url": "a/arbeitsplatz-fitness-fuer-programmierer-und-freelancer.html",
-    "revision": "2ba7b986bec52d1f7b95fa98c1380afa"
+    "revision": "b9e642930d7b5d8439eccaa8c31b0a59"
   },
   {
     "url": "a/besser-programmieren-mit-coding-games.html",
-    "revision": "61f182087e693bfb6831bd2a4475d00b"
+    "revision": "7a437ed528617cc24ec90e1ddeae24d9"
   },
   {
     "url": "a/code-richtig-kommentieren.html",
-    "revision": "647f6f00636faba8909713a531909a08"
+    "revision": "997d08dd74f81743e448d574b5bb427c"
   },
   {
     "url": "a/deine-erfahrungen-sind-gefragt.html",
-    "revision": "92b9ed35018abef407e9c6872e8a4934"
+    "revision": "85a21c15e9f3a07b34821f6eac894cf8"
   },
   {
     "url": "a/der-beste-editor-um-zu-coden.html",
-    "revision": "6c0f29df6d62455f97d9af11db92751e"
+    "revision": "88aba6dc77a43bfff663447bbd8e6a5b"
   },
   {
     "url": "a/die-besten-adressen-um-programmieren-zu-lernen.html",
-    "revision": "205cea992c49b67b8bf757dccc41e969"
+    "revision": "6d885c545b5a24ecba10a081efef949c"
   },
   {
     "url": "a/die-besten-blogs-zum-weiterlernen.html",
-    "revision": "8659a2bd5bf82a3062e0de4088664c49"
+    "revision": "2e62753ff51b51b9f89315ad0e31319d"
   },
   {
     "url": "a/die-tugend-der-selbstueberschatzung.html",
-    "revision": "02ee81bde4058f8cc8e90336346129c9"
+    "revision": "66d24a7a0eb01853d6044d7afd4226bb"
   },
   {
     "url": "a/drei-tipps-für-effizientes-googeln.html",
-    "revision": "64335ecf73ce651d56914b1e509b7bbb"
+    "revision": "c262c2e5620107415a6d92839ca1700f"
   },
   {
     "url": "a/git-tutorial-warum-und-wie-du-es-am-besten-benutzt.html",
-    "revision": "da4d3c8bc4ea7cf6beda31094fe85a44"
+    "revision": "ff0daf68de45b7358f0054447ca0aca5"
   },
   {
     "url": "a/linting-spart-lebenszeit.html",
-    "revision": "df4598ee69b56d9f0092123bd901fe87"
+    "revision": "1710021e917aa7dbaf55c35535504b9c"
   },
   {
     "url": "a/mit-diesen-voraussetzungen-lernst-du-programmieren.html",
-    "revision": "b992f443c76ae8063dc8fd6f1897f188"
+    "revision": "97fdc414a7b5d1d5b98e09405712b164"
   },
   {
     "url": "a/mit-englisch-lernt-sich-das-programmieren-leichter.html",
-    "revision": "be8807ef9bb791eb6209649d28f3b793"
+    "revision": "4c59819c3f48fde8eb7e3c8dcf47b74b"
   },
   {
     "url": "a/programmieren-lernen-welche-sprache-ist-die-richtige.html",
-    "revision": "5cf8121c512eb9b3085f602ca21a888d"
+    "revision": "1e2dd13e74c613ec7b64075ff5ed73b9"
+  },
+  {
+    "url": "a/refactoring.html",
+    "revision": "f173fe48b0c066431009ee886c442e9b"
+  },
+  {
+    "url": "a/testing.html",
+    "revision": "b5bd52bf4f8c3375f881a475ebc1f047"
   },
   {
     "url": "a/über-dieses-handbuch.html",
-    "revision": "2811feea753a67cb40ed31cc0f248a40"
+    "revision": "13175715ffb768d17338cbe0dd0623ed"
   },
   {
     "url": "a/warum-du-als-programmierer-nicht-studieren-musst.html",
-    "revision": "474daa22b4290b740b6d84eb1ff679e1"
+    "revision": "b5e2604c85476d1166d0ea5ad7ca77c7"
   },
   {
     "url": "android-chrome-192x192.png",
@@ -100,108 +108,116 @@ self.__precacheManifest = [
     "revision": "10b350e119d483e36fe50712050403c4"
   },
   {
-    "url": "assets/css/0.styles.852a3a45.css",
-    "revision": "5f06efd7461a37a2226c1eddb444ea16"
+    "url": "assets/css/0.styles.7199d779.css",
+    "revision": "4ce4042fe493b87e73dc4a000379d033"
   },
   {
     "url": "assets/js/1.a6ecc549.js",
     "revision": "7c9bbdc97c53392fb9af8452f47b7dc2"
   },
   {
-    "url": "assets/js/10.cfb634f4.js",
-    "revision": "09e2e1f834424a3b53108195b13dfb09"
+    "url": "assets/js/10.0dd55f2d.js",
+    "revision": "83174a90563a3e329e9d930d4f4dccfc"
   },
   {
-    "url": "assets/js/11.1976aa5f.js",
-    "revision": "4f04d5f5a4a6858b6f371dcd58944677"
+    "url": "assets/js/11.d42cf721.js",
+    "revision": "cd334ad5e0d357ca0387ec8f8eb51e88"
   },
   {
-    "url": "assets/js/12.d5f0a56f.js",
-    "revision": "bca5079d7a6a4d4dfd5f24956c48f360"
+    "url": "assets/js/12.fb950f6c.js",
+    "revision": "50a11401a71f33e7daa4c0bbdc436712"
   },
   {
-    "url": "assets/js/13.b9e5266d.js",
-    "revision": "918f1a4dda04b63be9a5597e033f721f"
+    "url": "assets/js/13.a7c8b1ec.js",
+    "revision": "ba132e54afdd4610ad78c55f6b111237"
   },
   {
-    "url": "assets/js/14.0f93e519.js",
-    "revision": "653c75975dcfbe026ee270ee17b8b2d5"
+    "url": "assets/js/14.8f7084b7.js",
+    "revision": "1160f5dc913fc459b1e14a512099b3f4"
   },
   {
-    "url": "assets/js/15.d18c14ca.js",
-    "revision": "67b5dd5ed88e33e2ea1102dbecfef0d7"
+    "url": "assets/js/15.097c68f5.js",
+    "revision": "a3f5431b3bab3fdb0b99ff0f25a3d51a"
   },
   {
-    "url": "assets/js/16.6a03a9cf.js",
-    "revision": "0329b76c2482bc1ee6e68972d5130181"
+    "url": "assets/js/16.59b1551b.js",
+    "revision": "bb2c5692758016b1206a98ddc9b0a238"
   },
   {
-    "url": "assets/js/17.91742d29.js",
-    "revision": "3891081cba2fd3bdbdbd2770a5f42638"
+    "url": "assets/js/17.3090e42c.js",
+    "revision": "2e0caa45796a3c96f60987c92a87f9d7"
   },
   {
-    "url": "assets/js/18.82fa47ed.js",
-    "revision": "8777aa1273b15adaac4e5ce226b30d3e"
+    "url": "assets/js/18.b2430cef.js",
+    "revision": "d5162749828918e53c224c84e8dd8c03"
   },
   {
-    "url": "assets/js/19.bdc4059b.js",
-    "revision": "03fb07d04679fd602cd5acbe29dd29ed"
+    "url": "assets/js/19.0b9a247b.js",
+    "revision": "40754b1046798195c987a16206bde861"
   },
   {
-    "url": "assets/js/20.02720af6.js",
-    "revision": "293924d46306bca15aca1e3a8ec3fb80"
+    "url": "assets/js/20.7c3815cd.js",
+    "revision": "74ba406ede17b0074ec4b84a6f0a8d7c"
   },
   {
-    "url": "assets/js/21.73927fdb.js",
-    "revision": "498f017356b3f6321fabde5cf21a6a26"
+    "url": "assets/js/21.d3ca0f18.js",
+    "revision": "e7b9562723a056314ea17e95a4da15f0"
   },
   {
-    "url": "assets/js/22.0bcd8f1f.js",
-    "revision": "64edf56688cf7e66af6dc9bf74723d0d"
+    "url": "assets/js/22.834d7609.js",
+    "revision": "959f01518b62f47a64885a3a0cfa2b3d"
   },
   {
-    "url": "assets/js/23.b6c9b3cf.js",
-    "revision": "ba38d2ecec2336da968995912a433146"
+    "url": "assets/js/23.46a1773a.js",
+    "revision": "968547fb48ee8c64f0f03a919afe2ce4"
   },
   {
-    "url": "assets/js/24.2a62f052.js",
-    "revision": "1d487ff41078407306776198320d3115"
+    "url": "assets/js/24.562466c5.js",
+    "revision": "68f6cc42fcbb3fac54be207c2b018051"
   },
   {
-    "url": "assets/js/25.8d3312f7.js",
-    "revision": "5a34b3069d52dd5fa4da864ec4dc2b17"
+    "url": "assets/js/25.91440aa2.js",
+    "revision": "9173bbe2db33e9975e2abe55029c5562"
   },
   {
-    "url": "assets/js/3.618664ff.js",
-    "revision": "d6eb665ad83ba70b9a65f6f8daa8cbc6"
+    "url": "assets/js/26.b141f12b.js",
+    "revision": "4352a734e5982dff0425ea0a7ce27a6a"
   },
   {
-    "url": "assets/js/4.1bcb0433.js",
-    "revision": "e58d8eec038258b91394b9bb76ddc9a3"
+    "url": "assets/js/27.064bdade.js",
+    "revision": "fead3ae9b579666bf22146408fe0c4d8"
+  },
+  {
+    "url": "assets/js/3.d54a59ea.js",
+    "revision": "fd13a55c32703909558e607809d7b549"
+  },
+  {
+    "url": "assets/js/4.f6379cda.js",
+    "revision": "8eb626887d1cedbf87cb0cf06e388056"
   },
   {
     "url": "assets/js/5.b8b6974b.js",
     "revision": "14dcb816e068bf69e2ab16149d2fc4f3"
   },
   {
-    "url": "assets/js/6.72f4b033.js",
-    "revision": "9e428cf6c5486ed4415d7cd4c3157cae"
+    "url": "assets/js/6.c7d6b395.js",
+    "revision": "6ad6ca7f62613fd5fbaa50ab9e102072"
   },
   {
-    "url": "assets/js/7.74c09046.js",
-    "revision": "19aa81314221eb3075897541f09a63de"
+    "url": "assets/js/7.ef444265.js",
+    "revision": "3856e588496771d863cc09d0269371bc"
   },
   {
-    "url": "assets/js/8.cac548fb.js",
-    "revision": "73c32f2c8ebc55a4f3261b571febd8bb"
+    "url": "assets/js/8.93396611.js",
+    "revision": "5386f4604b1bafadb3afdacb87c365a2"
   },
   {
-    "url": "assets/js/9.d30c8347.js",
-    "revision": "53c9a4a08427c7bf7a8eb92061311446"
+    "url": "assets/js/9.c5f432fc.js",
+    "revision": "eade378776f8ab672d83b742f3bb1f37"
   },
   {
-    "url": "assets/js/app.d56edd69.js",
-    "revision": "34c7cd83c336a8fb2abe9f5cb0c0f38a"
+    "url": "assets/js/app.0ba1a1cf.js",
+    "revision": "2f9ff8cd87df144d35e758434bdc6a80"
   },
   {
     "url": "favicon-16x16.png",
@@ -213,11 +229,11 @@ self.__precacheManifest = [
   },
   {
     "url": "impressum/index.html",
-    "revision": "bf329de6a9b59d396b49ebd21ea85b5b"
+    "revision": "eec9ee61829d7c1b1c6f3eeba2a7c5e5"
   },
   {
     "url": "index.html",
-    "revision": "27384d96ea0ddc0286cea26990dc61db"
+    "revision": "811d52d3efa4f939be02a175cbd328ec"
   },
   {
     "url": "mstile-150x150.png",
