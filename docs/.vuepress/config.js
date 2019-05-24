@@ -4,7 +4,6 @@ module.exports = {
   title: 'handbuch-programmieren.de',
   description:
     'Ein praxisnahes Handbuch für Programmierer und alle die es werden wollen.',
-  dest: 'docs',
   markdown: {
     anchor: { permalink: false },
   },
