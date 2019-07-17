@@ -16,6 +16,11 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f https://github.com/ehmprah/handbuch-programmieren.de.git master:gh-pages
+# HTTPS
+#git push -f https://github.com/ehmprah/handbuch-programmieren.de.git master:gh-pages
+
+# SSH
+git push -f git@github.com:ehmprah/handbuch-programmieren.de.git master:gh-pages
+
 
 cd -
