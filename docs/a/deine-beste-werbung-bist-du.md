@@ -34,3 +34,10 @@ Auf den folgenden Plattformen sind deine Profile als Programmierer besonders gef
 - [Stack Overflow](https://stackoverflow.com)
 - [Reddit](https://reddit.com)
 - [Twitter](https://twitter.com)
+
+## Zusammenfassung
+
+- Soziale Medien und Anbieter für Versionierung wie GitHub sind hervorragende Tools um dich, deine Skills und deine Projekte zu vermarkten
+- Finde den richtigen Nickname, der für alle wichtigen Plattformen noch frei ist und den du auch in zehn Jahren noch vertreten kannst
+- Versuche so viel Code wie möglich öffentlich zu schreiben und achte dabei stets auf Qualität und Lesbarkeit
+- Nutze Twitter, Stack Overflow und Reddit um zu lernen, dein Wissen weiterzugeben und dich und deine Skills zu präsentieren
