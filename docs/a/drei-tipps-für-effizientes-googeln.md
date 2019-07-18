@@ -1,7 +1,8 @@
 ---
+# TODO: rework, add counter
 type: article
 title: Drei Tipps für schlaues Googeln
-chapter: 2. Lernen lernen
+chapter: 2. Hilfreich von Anfang an
 weight: 0
 published: true
 ---

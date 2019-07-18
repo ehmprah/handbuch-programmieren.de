@@ -1,7 +1,8 @@
 ---
+# TODO: rework, add counter
 type: article
 title: Mit Englisch lernt sich das Programmieren leichter
-chapter: 2. Lernen lernen
+chapter: 2. Hilfreich von Anfang an
 weight: 0
 published: true
 ---

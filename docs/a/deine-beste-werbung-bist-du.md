@@ -1,7 +1,7 @@
 ---
 type: article
 title: Deine beste Werbung bist du
-chapter: 4. Vom Anfänger zum Profi
+chapter: 2. Hilfreich von Anfang an
 weight: 0
 published: true
 ---
@@ -41,3 +41,5 @@ Auf den folgenden Plattformen sind deine Profile als Programmierer besonders gef
 - Finde den richtigen Nickname, der für alle wichtigen Plattformen noch frei ist und den du auch in zehn Jahren noch vertreten kannst
 - Versuche so viel Code wie möglich öffentlich zu schreiben und achte dabei stets auf Qualität und Lesbarkeit
 - Nutze Twitter, Stack Overflow und Reddit um zu lernen, dein Wissen weiterzugeben und dich und deine Skills zu präsentieren
+
+<img src="https://vg09.met.vgwort.de/na/f4200556f47042b9870a562a1ca2a78d" width="1" height="1" alt="">
