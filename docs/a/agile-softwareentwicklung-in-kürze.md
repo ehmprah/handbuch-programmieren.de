@@ -38,7 +38,7 @@ In Kürze übersetzt legt das agile Manifest Wert auf
 
 ## Die Realität in der IT-Branche
 
-Auch wenn sich heutzutage quasi jede Firma, die Software macht, agile Entwicklung auf die Fahnen schreibt, wird dort auch tatsächlich komplett agil entwickelt. Man sollte die agile Software-Entwicklung in der Realität eher als ein Vorbild verstehen, an das sich manche mehr und manche weniger halten – aber am Ende des Tages ist und bleibt es dennoch der Industriestandard.
+Auch wenn sich heutzutage quasi jede Firma, die Software macht, agile Entwicklung auf die Fahnen schreibt, wird dort nicht unbedingt komplett agil entwickelt. Man sollte die agile Software-Entwicklung in der Realität eher als ein Vorbild verstehen, an das sich manche mehr und manche weniger halten – aber am Ende des Tages ist und bleibt es dennoch der Industriestandard.
 
 Die durchaus als Teil von agiler Softwareentwicklung zu sehende Projektmanagement-Methodik [Scrum](https://de.wikipedia.org/wiki/Scrum) ist ein gutes Beispiel dafür: hier gelten klare Regeln, an denen sich beileibe nicht alle halten, die von sich behaupten, nach Scrum zu arbeiten. So verhält es sich auch mit agiler Software-Entwicklung im Ganzen: wirklich zu hundert Prozent hält sich kaum jemand daran, aber die meisten picken sich zumindest ein paar wichtige Rosinen heraus und orientieren sich grundsätzlich an dem, was das Agile Manifest beschreibt. Und genau deswegen kommst du im Arbeitsleben an agiler Entwicklung auch nicht vorbei und solltest zumindest grundsätzlich wissen, worum es dabei geht.
 

@@ -6,7 +6,7 @@ weight: 0
 published: true
 meta:
   - name: description
-    content: Hier lernst du warum du Git brauchst und wie du es von Anfang an wie ein Profi benutzt, mit
+    content: Hier lernst du warum du Git brauchst und wie du es von Anfang an wie ein Profi benutzt.
 ---
 
 ## Warum brauch ich Versionierung?

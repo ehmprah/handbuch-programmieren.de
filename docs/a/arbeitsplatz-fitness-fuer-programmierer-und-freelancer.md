@@ -16,9 +16,13 @@ Klingt jetzt erstmal trivial, aber ich bin mir sicher, es gibt einige Leute da d
 
 Wenn du jetzt nicht gerade in einen höhenverstellbaren Schreibtisch investiert hast, wirst Du viel am Computer sitzen. Wie wir alle wissen ist viel sitzen nicht gut für unseren Rücken: der liebt Abwechslung und Bewegung, beides bekommst Du am Computer jetzt eher weniger. Deshalb: Aufstehen. Im Kreis gehen. Ein Glas Wasser oder einen Tee holen. Den Müll rausbringen. Wäsche aufhängen. All diese kleinen Dinge des Alltags nicht aufeinmal erledigen, sondern für deine kleinen Computer-Pausen aufheben. Ich verbringe den Großteil meines Tages vor dem Computer, und doch sitze ich nie länger als eine halbe Stunde am Stück davor. Positiver Nebeneffekt: der Haushalt ist immer tip top in Schuss!
 
+Auch im Büro ist das kein Problem: mach das nächste Gespräch mit deinem Kollegen doch nicht an deinem Platz, sondern im Stehen. Dreht eine Runde durchs Büro, trefft euch an der Kaffeemaschine oder lauft mal um den Block während Ihr Euch besprecht.
+
 ## Tipp #3: Kleine Fitnessübungen zwischendurch
 
 Ich persönlich gehe nicht gerne ins Fitnessstudio. Fit mag ich aber trotzdem sein: deswegen mach ich Fitness einfach zu Hause. Eine Klimmzugstange, eine Yogamatte und ein paar Hanteln in der Nähe Deines Arbeitsplatzes sind ein perfektes Mittel, um den Körper fit zu halten und gleichzeitig für Gesundheit am Arbeitsplatz zu sorgen. Und ein paar kleine Übungen zwischendurch sind kein allzu großes Commitment, machen sich aber auf Dauer nicht minder bemerkbar! Aber: kurz warm machen nicht vergessen!
+
+Das ist im Büro schon durchaus schwieriger: die Kollegen werden Augen machen, wenn du plötzlich neben deinem Schreibtisch auf den Boden gehst und Liegestütze machst. Je nach Atmosphäre im Büro solltest du versuchen die Art von Bewegung unterzukriegen, die dich nicht vollkommen bescheuert aussehen läßt aber auch dafür sorgt, dass du nicht acht Stunden am Tag auf deinem Stuhl versauerst.
 
 ## Tipp #4: Übungen für Finger und Handgelenke
 
