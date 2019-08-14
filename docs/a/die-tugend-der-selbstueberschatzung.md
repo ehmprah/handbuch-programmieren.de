@@ -1,4 +1,5 @@
 ---
+# TODO: rework, add counter
 type: article
 title: Die Tugend der Selbstüberschätzung
 chapter: 4. Vom Anfänger zum Profi
