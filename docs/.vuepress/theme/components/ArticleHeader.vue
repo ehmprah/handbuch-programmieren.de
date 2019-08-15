@@ -18,7 +18,8 @@ export default {
     lastUpdated: function() {
       const date = new Date(this.$page.lastUpdated);
       return `${('0' + date.getDate()).slice(-2)}.${(
-        '0' + date.getMonth()
+        '0' +
+        (date.getMonth() + 1)
       ).slice(-2)}.${date.getFullYear()}`;
     },
   },
