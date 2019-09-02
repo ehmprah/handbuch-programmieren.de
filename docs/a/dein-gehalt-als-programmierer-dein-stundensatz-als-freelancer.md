@@ -37,3 +37,5 @@ Aufwärts geht's danach übrigens nur noch mit Personalverantwortung: je mehr da
 Stundensätze für Programmierer variieren stark mit Erfahrung, Branche und dem Fachgebiet —je weniger Konkurrenz in deinem Fachgebiet, desto höher auch dein Stundensatz; als grobe Richtlinie kannst du aber mit 20 Euro plus weitere 10 für jedes Jahr Erfahrung rechnen. Die Job-Plattform GULP für Freelancer bietet zur Kontrolle einen guten [Stundensatzkalkulator](https://www.gulp.de/stundensatzkalkulator).
 
 Noch ein kleiner Tipp zum Schluss: du wirst merken, wenn du an die Obergrenze für dein Jahresgehalt oder deinen Stundensatz gekommen bist; wenn dein Preis ohne Zähneknirschen akzeptiert wird, warst du zu günstig.
+
+<img src="https://vg09.met.vgwort.de/na/65a5361a1c1540c7ac4cf0eaff048094" width="1" height="1" alt="">
