@@ -1,7 +1,7 @@
 ---
 type: article
 title: 'Ein Studium ist doch was wert'
-chapter: 6. Gastbeiträge
+chapter: 7. Gastbeiträge
 weight: 1
 published: true
 ---

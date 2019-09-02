@@ -2,7 +2,7 @@
 # TODO: rework, add counter
 type: article
 title: Arbeitsplatz-Fitness für Programmierer und Freelancer
-chapter: 5. Gesund bleiben
+chapter: 6. Gesund bleiben
 weight: 0
 published: true
 ---
