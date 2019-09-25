@@ -1,7 +1,7 @@
 ---
 type: article
 title: Agile Softwareentwicklung in Kürze
-chapter: 3. Das Handwerkszeug
+chapter: 4. Vom Anfänger zum Profi
 weight: 10
 published: true
 ---

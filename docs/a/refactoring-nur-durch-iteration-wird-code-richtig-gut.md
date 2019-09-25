@@ -1,7 +1,7 @@
 ---
 type: article
 title: 'Refactoring: Nur durch Iteration wird Code richtig gut'
-chapter: 3. Das Handwerkszeug
+chapter: 4. Vom Anfänger zum Profi
 weight: 0
 published: true
 ---

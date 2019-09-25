@@ -1,7 +1,7 @@
 ---
 type: article
 title: Eine kurze Einführung in objektorientierte Programmierung
-chapter: 3. Das Handwerkszeug
+chapter: 4. Vom Anfänger zum Profi
 weight: 1
 published: true
 ---
