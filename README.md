@@ -1,6 +1,8 @@
 # handbuch-programmieren.de
 
-In diesem Repository liegt der Source Code für das [handbuch-programmieren.de](https://handbuch-programmieren.de/). Das Handbuch wurde auf Basis von [Vuepress](https://vuepress.vuejs.org/) gebaut.
+In diesem Repository liegt der Source Code für das [handbuch-programmieren.de](https://handbuch-programmieren.de/).
+
+Das Handbuch wurde auf Basis von [Vuepress](https://vuepress.vuejs.org/) gebaut.
 
 ## Copyright
 
