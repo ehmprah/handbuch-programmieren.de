@@ -69,3 +69,5 @@ Das Thema funktionale Programmierung ist kein neues: seit Mitte des letzten Jahr
 - https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0
 - https://alvinalexander.com/scala/fp-book/benefits-of-functional-programming
 - https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-1-1f15e387e536
+
+<img src="https://vg09.met.vgwort.de/na/d91827ac294541168efba0b0f79484ae" width="1" height="1" alt="">
