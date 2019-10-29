@@ -64,6 +64,7 @@ Wenn wir uns nach diesen Grundprinzipien richten, schreiben wir ganz automatisch
 
 Das Thema funktionale Programmierung ist kein neues: seit Mitte des letzten Jahrhunderts wird funktional programmiert und insbesondere durch den mathematisch-akademischen Hintergrund gibt's zum Thema endlos viel zu lesen. Ich hab ein paar meiner Lieblingsbeiträge zum Thema hier aufgeführt, falls Interesse am tieferen Einstieg besteht:
 
+- https://medium.com/@nadeesha/a-practical-guide-to-writing-more-functional-javascript-db49409f71
 - https://medium.com/dailyjs/functional-js-1-introduction-7908bfe5ef8d
 - https://www.tutorialspoint.com/functional_programming/functional_programming_introduction.htm
 - https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0
