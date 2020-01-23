@@ -1,6 +1,6 @@
 ---
 type: article
-title: Eine kurze Einführung in Entity Component System (ECS)
+title: Kurze Einführung in Entity Component System (ECS)
 chapter: 5. Paradigmen und Patterns
 weight: 2
 published: true

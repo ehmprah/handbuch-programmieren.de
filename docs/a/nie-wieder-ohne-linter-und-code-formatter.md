@@ -4,7 +4,6 @@ title: Nie wieder ohne Linter und Code Formatter
 chapter: 3. Das Handwerkszeug
 weight: 1
 published: true
-alias: a/linting-spart-lebenszeit.html
 ---
 
 Code fühlt sich manchmal an wie Sprache: es gibt viele verschiedene Arten etwas zu sagen, und das ist auch wunderschön so. Aber wie bei Sprache auch macht es Sinn, sich auf eine gewisse Rechtschreibung zu einigen, damit man sich auf das Wesentliche konzentrieren kann, den Code, und nicht von der Formatierung abgelenkt wird. Genau dafür gibt es Linter und Code Formatter: das sind Tools, die automatisch Rechtschreib- oder Grammatikfehler aufzeigen und die Formatierung deines Code überprüfen und an Standards anpassen.

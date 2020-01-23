@@ -4,7 +4,6 @@ title: 'Der wichtigste Skill für Programmierer: Googeln'
 chapter: 3. Das Handwerkszeug
 weight: -1
 published: true
-alias: a/drei-tipps-für-effizientes-googeln.html
 ---
 
 Es mag jetzt ein bisschen doof klingen, aber der mit Abstand wichtigste Skill für Programmierer und Leute, die sich selbst etwas beibringen wollen, ist die erfolgreiche Bedienung einer Suchmaschine. Du fragst Dich jetzt vielleicht, ob das nicht ein wichtiger Skill für jeden Menschen im dritten Jahrtausend ist – und das stimmt, zweifelsohne!

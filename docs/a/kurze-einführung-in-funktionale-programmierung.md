@@ -1,6 +1,6 @@
 ---
 type: article
-title: Eine kurze Einführung in funktionale Programmierung
+title: Kurze Einführung in funktionale Programmierung
 chapter: 5. Paradigmen und Patterns
 weight: 1
 published: true
