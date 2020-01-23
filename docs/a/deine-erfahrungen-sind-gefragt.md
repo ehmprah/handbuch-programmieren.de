@@ -1,7 +1,7 @@
 ---
 type: article
 title: 'Deine Erfahrungen sind gefragt!'
-chapter: 7. Gastbeiträge
+chapter: 8. Gastbeiträge
 weight: 0
 published: true
 ---

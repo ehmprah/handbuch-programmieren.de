@@ -1,7 +1,7 @@
 ---
 type: article
 title: Eine kurze Einführung in Entity Component System (ECS)
-chapter: 4. Vom Anfänger zum Profi
+chapter: 5. Paradigmen und Patterns
 weight: 2
 published: true
 ---
@@ -49,8 +49,8 @@ Natürlich gibt es auch bei ECS Objekte im Sinne der OOP: also Entitäten, die e
 
 ## Es ist nicht alles gold was glänzt
 
-Die Vorteile von ECS sind nicht von der Hand zu weisen: aber natürlich gibt's auch hier klare Nachteile. Zum einen lädt ECS dazu ein, imperformanten Code zu schreiben: da unser Ziel ist, Systeme mit einem möglichst kleinen Aufgabenbereich zu schreiben, werden wir zwangsläufig viele Systeme haben, die über alle Entities iterieren. Bei vielen System und Entities wird das schnell zum Performance-Problem. Zwar ist es durchaus möglich, diese Performance-Probleme zu vermeiden, aber dass wir uns hier eine von vielen Strategien aussuchen und diese bewusst anwenden müssen, ist ein klarer Nachteil.
+Die Vorteile von ECS sind nicht von der Hand zu weisen: aber natürlich gibt's auch hier klare Nachteile. Zum einen lädt ECS dazu ein, imperformanten Code zu schreiben: da unser Ziel ist, Systeme mit einem möglichst kleinen Aufgabenbereich zu schreiben, werden wir zwangsläufig viele Systeme haben, die über alle Entities iterieren. Bei vielen System und Entities wird das schnell zum Performance-Problem. Zwar ist es durchaus möglich, diese Performance-Probleme zu vermeiden, aber dass wir uns hier eine von vielen [Strategien](https://skypjack.github.io/2019-03-07-ecs-baf-part-2/) aussuchen und diese bewusst anwenden müssen, ist ein klarer Nachteil.
 
 Desweiteren sind die Anwendungsfelder für ECS wohl eher beschränkt: seinen Ursprung hat das Paradigma in der Spiele-Entwicklung und nicht umsonst findet es dort die meiste Verwendung. Viele andere Applikationen, die wir entwickeln, funktionieren eher nach dem Prinzip Aktion-Reaktion und haben gar keine Verwendung für Systeme, die dauerhaft über Daten iterieren. Dennoch denke ich dass die Vorteile, die ECS bietet, sehr wertvoll auch für andere Paradigmen und Applikationen sein kann: und am Ende gibt es auch hier wieder die Möglichkeit, nicht das ganze Paradigma zu übernehmen, sondern sich die Rosinen herauszupicken und das zu verwenden, was zu deinem konkreten Projekt passt.
 
-
+<img src="https://vg09.met.vgwort.de/na/c052e287e07244588307a7b01cd1144f" width="1" height="1" alt="">

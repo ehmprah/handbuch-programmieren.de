@@ -1,7 +1,7 @@
 ---
 type: article
 title: Code ist ein Werkzeug
-chapter: 7. Gastbeiträge
+chapter: 8. Gastbeiträge
 weight: 2
 published: true
 ---

@@ -1,8 +1,8 @@
 ---
 type: article
 title: Eine kurze Einführung in objektorientierte Programmierung
-chapter: 4. Vom Anfänger zum Profi
-weight: 1
+chapter: 5. Paradigmen und Patterns
+weight: 0
 published: true
 ---
 

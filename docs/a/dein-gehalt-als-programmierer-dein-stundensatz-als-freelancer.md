@@ -1,7 +1,7 @@
 ---
 type: article
 title: Dein Gehalt als Programmierer & dein Stundensatz als Freelancer
-chapter: 5. Die Arbeitswelt
+chapter: 6. Die Arbeitswelt
 weight: 2
 published: true
 ---

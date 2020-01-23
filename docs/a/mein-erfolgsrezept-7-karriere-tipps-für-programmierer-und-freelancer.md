@@ -1,7 +1,7 @@
 ---
 type: article
 title: 'Mein Erfolgsrezept: 7 Karriere-Tipps für Programmierer und Freelancer'
-chapter: 5. Die Arbeitswelt
+chapter: 6. Die Arbeitswelt
 weight: 3
 published: true
 ---

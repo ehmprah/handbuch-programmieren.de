@@ -1,7 +1,7 @@
 ---
 type: article
 title: Wie bekommt man Aufträge als Freelancer?
-chapter: 5. Die Arbeitswelt
+chapter: 6. Die Arbeitswelt
 weight: 3
 published: true
 ---
