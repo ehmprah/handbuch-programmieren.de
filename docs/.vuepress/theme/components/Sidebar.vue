@@ -7,18 +7,13 @@
 
     <div class="sidebar__headline">Mehr vom Autor</div>
     <div class="sidebar__content">
-      Ich bin Mario "ehmprah" Kaiser und entwickle Games und andere Dinge, die du auf
+      <p>Ich bin Mario "ehmprah" Kaiser und entwickle Games und andere Dinge, die du auf
       <a target="_blank" href="https://ehmprah.com/">ehmprah.com</a> findest. Folge mir auf
-      <a target="_blank" href="https://twitter.com/ehmprah">Twitter</a> für Updates.
+      <a target="_blank" href="https://twitter.com/ehmprah">Twitter</a> für Updates.</p><p>
       Den Quellcode für handbuch-programmieren.de gibt's übrigens auf
       <a
         href="https://github.com/ehmprah/handbuch-programmieren.de"
-      >Github</a>.
-    </div>
-
-    <div class="sidebar__headline">English version</div>
-    <div class="sidebar__content">
-      I'm also creating an English version of this book: <a href="https://programming-guidebook.com/">Programming Guidebook</a>.
+      >Github</a>. Und die englische Version dieses Buchs findest du hier: <a href="https://programming-guidebook.com/">Programming Guidebook</a>.</p>
     </div>
 
     <div class="sidebar__headline">Sonstiges</div>
