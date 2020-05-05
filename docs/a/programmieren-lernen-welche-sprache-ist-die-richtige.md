@@ -9,7 +9,7 @@ meta:
     content: Hier lernst du, welche Programmiersprache die richtige für dich ist und wie du deine ersten Schritte in der Programmierung machst.
 ---
 
-Du willst Programmieren lernen und fragst dich, wie du das am Besten anstellst? Damit ist der erste Schritt getan; dieses Kapitel gibt dir eine erste Orientierung, welche die richtige Sprache für dich sein könnte. Und auch danach gibt's reichlich Hilfe auf dem Weg zum Programmier-Profi – also boomarke dieses Handbuch auf jeden Fall, wenn du nicht alles auf einmal lesen möchtest.
+Du willst Programmieren lernen und fragst dich, wie du das am Besten anstellst? Damit ist der erste Schritt getan; dieses Kapitel gibt dir eine erste Orientierung, welche die richtige Sprache für dich sein könnte. Und auch danach gibt's reichlich Hilfe auf dem Weg zum Programmier-Profi – also bookmarke dieses Handbuch auf jeden Fall, wenn du nicht alles auf einmal lesen möchtest.
 
 ## Welche Programmmiersprache soll ich lernen?
 
