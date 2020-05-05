@@ -30,7 +30,7 @@ Ein Funktionsname sollte beschreiben, was die Funktion macht. Damit kann man ein
 const first = load(id);
 ```
 
-Der Kommentar bei diesem Beispiel ist überflüssig und übernimmt, was mit sprechenden Funktions- und Variablennamen auch machbar wäre:
+Der Kommentar bei diesem Beispiel ist überflüssig und übernimmt, was mit semantischen (d.h. sprechenden) Funktions- und Variablennamen auch machbar wäre:
 
 ```js
 const user = loadUser(userId);
@@ -41,6 +41,10 @@ const user = loadUser(userId);
 Wenn du Code so schreibst, dass er nicht nur seine Funktion erfüllt, sondern gleichzeitig selbst beschreibt, was er tut, brauchst du weniger Kommentare. Das macht deinen Code kürzer und übersichtlicher: je weniger Code und Kommentare du lesen musst, umso besser.
 
 Aber auch wenn du grundsätzlich versuchen solltest, so wenig Code und Kommentare wie möglich zu schreiben: ganz ohne geht's eben auch nicht. Kommentare können die Absicht hinter dem Code erklären, ihn gliedern und Zusammenhänge aufzeigen, was dir und anderen dabei hilft, sich schnell zurecht zu finden.
+
+## Besonderheiten und Hacks sind der beste Anwendungsfall
+
+Die wohl wichtigsten Kommentare im Code sind die, die Besonderheiten aufzeigen, Hacks erklären oder auf Probleme hinweisen, die durch den Code selbst nicht klar werden. Immer wenn du keine eindeutige oder "saubere" Lösung für ein Problem findest, solltest du mit einem kurzen Kommentar darauf hinweisen, warum deine Lösung an der Stelle trotzdem Sinn macht. Auch wenn du mit deiner Lösung ein Problem an einer anderen Stelle vermeidest, solltest du das auf jeden Fall mit einem Kommentar kennzeichnen, damit nicht du oder jemand anders in Zukunft diese Stelle ändert, ohne an die Auswirkung an der anderen Stelle zu denken.
 
 ## Erst durch Iteration werden Kommentare richtig gut
 
