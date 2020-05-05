@@ -4,6 +4,9 @@ title: Code richtig kommentieren
 chapter: 3. Das Handwerkszeug
 weight: 0
 published: true
+meta:
+  - name: description
+    content: Programmieren an sich ist eine Kunst – Code richtig zu kommentieren ebenso. Hier erfährst du, wie du Code kommentierst wie ein Profi.
 ---
 
 Wie man Code richtig kommentiert und verständlich ist diskutabel. Es gibt nicht den einen goldenen Weg, sondern verschiedene Ansätze die alle durchaus ihre Daseinsberechtigung haben. Fest steht, dass es sehr viel Sinn macht, Code gut zu kommentieren und verständlich zu halten, egal wie.
