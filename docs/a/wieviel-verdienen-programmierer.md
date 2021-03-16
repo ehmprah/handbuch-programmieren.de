@@ -1,9 +1,12 @@
 ---
 type: article
-title: Dein Gehalt als Programmierer & dein Stundensatz als Freelancer
+title: Wieviel verdienen Programmierer?
 chapter: 6. Die Arbeitswelt
 weight: 2
 published: true
+meta:
+  - name: description
+    content: Welches Gehalt du als angestellter Programmierer erwarten kannst und wie du deinen Stundensatz als Freelancer festlegst.
 ---
 
 Zunächst mal ein Caveat von meiner Seite: die im Folgenden genannten Zahlen beruhen weitestgehend auf meinen persönlichen Erfahrungswerten und sind nicht das Ergebnis breit angelegter Studien mit vielen Daten. Daher sollten sie auch nur als Orientierung gelten.

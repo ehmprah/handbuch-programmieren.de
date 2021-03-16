@@ -4,6 +4,9 @@ title: Kurze Einführung in objektorientierte Programmierung
 chapter: 5. Paradigmen und Patterns
 weight: 0
 published: true
+meta:
+  - name: description
+    content: Worauf es bei objektorientierter Programmierung (OOP) ankommt und wann es Sinn macht sie einzusetzen.
 ---
 
 ## Was ist objektorientierte Programmierung?

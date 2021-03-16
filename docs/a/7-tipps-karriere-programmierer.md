@@ -1,9 +1,12 @@
 ---
 type: article
-title: 'Mein Erfolgsrezept: 7 Karriere-Tipps für Programmierer und Freelancer'
+title: '7 Tipps für deine Karriere als Programmierer'
 chapter: 6. Die Arbeitswelt
 weight: 3
 published: true
+meta:
+  - name: description
+    content: Wenn du diesen sieben Tipps folgst, steht einer steilen Karriere als Software-Entwickler nichts mehr im Wege!
 ---
 
 Ich habe mir als Autodidakt eine recht erfolgreiche Karriere aufgebaut, und arbeite nach vielen guten Jahren als Freelancer heute als Senior Entwickler in einem coolen Unternehmen und bin durchaus optimistisch, dass das auch noch nicht das Ende der Fahnenstange ist.
@@ -42,6 +45,6 @@ Ich bin ein großer Freund einer gesunden Work-Life-Balance, aber insbesondere a
 
 ## Sei so günstig wie nötig
 
-Den richtigen Preis für seine Arbeit zu verlangen gehört natürlich auch zu meinem Erfolgsrezept — da dieses Thema etwas komplexer ist, habe ich ihm einen ganzen Beitrag gewidmet: [Dein Gehalt als Programmierer & dein Stundensatz als Freelancer](/a/dein-gehalt-als-programmierer-dein-stundensatz-als-freelancer.html).
+Den richtigen Preis für seine Arbeit zu verlangen gehört natürlich auch zu meinem Erfolgsrezept — da dieses Thema etwas komplexer ist, habe ich ihm einen ganzen Beitrag gewidmet: [Wieviel verdeinen Programmierer?](/a/wieviel-verdienen-programmierer.html).
 
 <img src="https://vg09.met.vgwort.de/na/98d3797901d346ec8d0f99d8c65cd1a3" width="1" height="1" alt="">

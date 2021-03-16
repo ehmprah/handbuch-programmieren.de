@@ -1,6 +1,6 @@
 ---
 type: article
-title: Fünf Wege um Programmieren zu lernen
+title: Wie lerne ich Programmieren?
 chapter: 1. Einführung
 weight: 0
 published: true
