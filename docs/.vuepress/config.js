@@ -10,8 +10,13 @@ module.exports = {
   themeConfig: {
     lastUpdated: true,
   },
-  chainWebpack: (config, isServer) => {
-    config.resolve.alias.set('@theme', path.resolve(__dirname, './theme'));
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@img': path.resolve(__dirname, '../img'),
+        '@theme': path.resolve(__dirname, './theme')
+      }
+    }
   },
   head: [
     [
